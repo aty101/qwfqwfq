@@ -1,0 +1,8 @@
+name: "1"
+on: push
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Prrint
+        run: echo "Hi"
